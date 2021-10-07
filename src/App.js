@@ -38,7 +38,7 @@ function App() {
         <Spinner animation="border" size="lg" variant="light" role="status" />
       )}
       {!loading && (
-        <Row>
+        <Row md={6} xs={12}>
           <Col md={12} sm={6}>
             <WeatherCard Data={Data} />
           </Col>
